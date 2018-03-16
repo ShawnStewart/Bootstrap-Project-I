@@ -1,0 +1,29 @@
+.container-fluid {
+  width: 70%;
+  height: 1000px;
+  background-image: url(../img/lakeohau.jpg);
+  border: 3px solid black;
+  border-radius: 15px;
+}
+.nav a {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 0 5px;
+  color: black;
+}
+.nav a:hover {
+  text-decoration: underline;
+}
+.nav .active {
+  background-color: #fcaca3;
+}
+.jumbotron {
+  background-color: #fcaca3;
+}
+.jumbotron img {
+  max-height: 300px;
+}
+.jumbotron button a {
+  color: white;
+}
